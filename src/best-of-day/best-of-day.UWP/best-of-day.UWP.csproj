@@ -8,7 +8,7 @@
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>best_of_day.UWP</RootNamespace>
-    <AssemblyName>best_of_day.UWP</AssemblyName>
+    <AssemblyName>best-of-day.UWP</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion>10.0.18362.0</TargetPlatformVersion>
@@ -144,13 +144,13 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="4.2.0.709249" />
-    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.1.9"/>
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.1.9" />
     <PackageReference Include="Xamarin.Essentials" Version="1.2.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\best_of_day\best_of_day.csproj">
-      <Project>{C232241C-0407-48E2-B5A4-271B79053161}</Project>
-      <Name>best_of_day</Name>
+    <ProjectReference Include="..\best-of-day\best-of-day.csproj">
+      <Project>{ce126ab3-15e6-44b9-ab3f-fc2cef9949bd}</Project>
+      <Name>best-of-day</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">

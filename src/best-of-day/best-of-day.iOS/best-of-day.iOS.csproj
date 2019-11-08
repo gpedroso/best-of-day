@@ -11,7 +11,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>best_of_day.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>best_of_day.iOS</AssemblyName>
+    <AssemblyName>best-of-day.iOS</AssemblyName>
     <MtouchEnableSGenConc>true</MtouchEnableSGenConc>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
   </PropertyGroup>
@@ -123,11 +123,11 @@
     <PackageReference Include="Xamarin.Forms" Version="4.2.0.709249" />
     <PackageReference Include="Xamarin.Essentials" Version="1.2.0" />
   </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\best_of_day\best_of_day.csproj">
-      <Project>{C232241C-0407-48E2-B5A4-271B79053161}</Project>
-      <Name>best_of_day</Name>
+    <ProjectReference Include="..\best-of-day\best-of-day.csproj">
+      <Project>{ce126ab3-15e6-44b9-ab3f-fc2cef9949bd}</Project>
+      <Name>best-of-day</Name>
     </ProjectReference>
   </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
